@@ -26,11 +26,13 @@ namespace _02_Variables
             //potatoPrice = 9.74;
             //tomatoPrice = 6.88;
 
-            //Console.WriteLine("---- Elma Birim Fiyatı: " + applePrice + " TL");
-            //Console.WriteLine("---- Portakal Birim Fiyatı: " + orangePrice + " TL");
-            //Console.WriteLine("---- Çilek Birim Fiyatı: " + strawberryPrice + " TL");
-            //Console.WriteLine("---- Patates Birim Fiyatı: " + potatoPrice + " TL");
-            //Console.WriteLine("---- Domates Birim Fiyatı: " + tomatoPrice + " TL");
+            //Console.OutputEncoding = Encoding.UTF8;
+
+            //Console.WriteLine("---- Elma Birim Fiyatı: " + applePrice + "₺");
+            //Console.WriteLine("---- Portakal Birim Fiyatı: " + orangePrice + "₺");
+            //Console.WriteLine("---- Çilek Birim Fiyatı: " + strawberryPrice + "₺");
+            //Console.WriteLine("---- Patates Birim Fiyatı: " + potatoPrice + "₺");
+            //Console.WriteLine("---- Domates Birim Fiyatı: " + tomatoPrice + "₺");
 
             //Console.WriteLine();
             //Console.WriteLine();
@@ -52,28 +54,28 @@ namespace _02_Variables
 
             //Console.WriteLine("Alınan Ürün: Elma");
             //Console.WriteLine("Ağırlık: " + appleWeight + " kg");
-            //Console.WriteLine("Birim Fiyat: " + applePrice + " TL");
-            //Console.WriteLine("Toplam Fiyat: " + appleTotalPrice + " TL");
+            //Console.WriteLine("Birim Fiyat: " + applePrice + "₺");
+            //Console.WriteLine("Toplam Fiyat: " + appleTotalPrice + "₺");
             //Console.WriteLine("----------------------------------------");
             //Console.WriteLine("Alınan Ürün: Portakal");
             //Console.WriteLine("Ağırlık: " + orangeWeight + " kg");
-            //Console.WriteLine("Birim Fiyat: " + orangePrice + " TL");
-            //Console.WriteLine("Toplam Fiyat: " + orangeTotalPrice + " TL");
+            //Console.WriteLine("Birim Fiyat: " + orangePrice + "₺");
+            //Console.WriteLine("Toplam Fiyat: " + orangeTotalPrice + "₺");
             //Console.WriteLine("----------------------------------------");
             //Console.WriteLine("Alınan Ürün: Çilek");
             //Console.WriteLine("Ağırlık: " + strawberryWeight + " kg");
-            //Console.WriteLine("Birim Fiyat: " + strawberryPrice + " TL");
-            //Console.WriteLine("Toplam Fiyat: " + strawberryTotalPrice + " TL");
+            //Console.WriteLine("Birim Fiyat: " + strawberryPrice + "₺");
+            //Console.WriteLine("Toplam Fiyat: " + strawberryTotalPrice + "₺");
             //Console.WriteLine("----------------------------------------");
             //Console.WriteLine("Alınan Ürün: Patates");
             //Console.WriteLine("Ağırlık: " + potatoWeight + " kg");
-            //Console.WriteLine("Birim Fiyat: " + potatoPrice + " TL");
-            //Console.WriteLine("Toplam Fiyat: " + potatoTotalPrice + " TL");
+            //Console.WriteLine("Birim Fiyat: " + potatoPrice + "₺");
+            //Console.WriteLine("Toplam Fiyat: " + potatoTotalPrice + "₺");
             //Console.WriteLine("----------------------------------------");
             //Console.WriteLine("Alınan Ürün: Domates");
             //Console.WriteLine("Ağırlık: " + tomatoWeight + " kg");
-            //Console.WriteLine("Birim Fiyat: " + tomatoPrice + " TL");
-            //Console.WriteLine("Toplam Fiyat: " + tomatoTotalPrice + " TL");
+            //Console.WriteLine("Birim Fiyat: " + tomatoPrice + "₺");
+            //Console.WriteLine("Toplam Fiyat: " + tomatoTotalPrice + "₺");
 
             //Console.WriteLine();
             //Console.WriteLine();
@@ -81,7 +83,7 @@ namespace _02_Variables
             //double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice +
             //    strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
 
-            //Console.WriteLine("Toplam Alışveriş Tutarı: " + shoppingTotalPrice + " TL");
+            //Console.WriteLine("Toplam Alışveriş Tutarı: " + shoppingTotalPrice + "₺");
             #endregion
 
             #region Char Değişkenler
@@ -150,8 +152,10 @@ namespace _02_Variables
             //int totalPrice = shoesPrice * shoesAmount + computersPrice * computersAmount +
             //    chairsPrice * chairsAmount + TVsPrice * TVsAmount;
 
+            //Console.OutputEncoding = Encoding.UTF8;
+
             //Console.WriteLine();
-            //Console.WriteLine("Toplam ödenecek tutar: " + totalPrice);
+            //Console.WriteLine("Toplam ödenecek tutar: " + totalPrice + "₺");
 
             #endregion
 
